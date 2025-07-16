@@ -60,7 +60,7 @@ const ramos = {
     ],
     '4-2': [
         { nombre: 'Tecnología Farmacéutica II', codigo: 'tf2', prereq: ['tf1'] },
-        { nombre: 'Farmacia Asistencial, codigo: 'farmasis', prereq: ['adminrrhh', 'spye'] },
+        { nombre: 'Farmacia Asistencial, codigo: 'farmasist', prereq: ['adminrrhh', 'spye'] },
         { nombre: 'Nutrición', codigo: 'nutri', prereq: ['qfyp', 'qalimen'] },
         { nombre: 'Gestión de Calidad', codigo: 'gesca', prereq: ['legsf', 'tf1'] },
         { nombre: 'Bioquímica Clínica', codigo: 'bioqclin', prereq: ['qfyp'] },
@@ -68,7 +68,7 @@ const ramos = {
         { nombre: 'Taller Integración Perfil de Egreso II', codigo: 'tip2', prereq: ['tip1'] },
     ],
     '5-1': [
-        { nombre: 'Farmacia Clínica I', codigo: 'farmaclin1', prereq: ['tf2', 'farmasis', 'nutri', 'gesca', 'bioqclin', 'semlic', 'tip2'] },
+        { nombre: 'Farmacia Clínica I', codigo: 'farmaclin1', prereq: ['tf2', 'farmasist', 'nutri', 'gesca', 'bioqclin', 'semlic', 'tip2'] },
         { nombre: 'Cosmética', codigo: 'cosme', prereq: ['tf2'] },
         { nombre: 'Toxicología', codigo: 'toxi', prereq: ['flogia2'] },
         { nombre: 'Gestión Comercial', codigo: 'gescom', prereq: ['adminrrhh', 'gesca'] },
@@ -80,7 +80,7 @@ const ramos = {
         { nombre: 'Asignatura Electiva Profesional II', codigo: 'aep2', prereq: ['et'] },
         { nombre: 'Farmacia Clínica II', codigo: 'farmaclin2', prereq: ['farmaclin1'] },
         { nombre: 'Unidad de Investigación I o Internado I', codigo: 'ui1', prereq: ['semlic'] },
-        { nombre: 'Práctica Profesional III', codigo: 'ppf3', prereq: ['aninstr', 'qalimen', 'tf2', 'farmasis', 'bioqclin', 'toxi'] },
+        { nombre: 'Práctica Profesional III', codigo: 'ppf3', prereq: ['aninstr', 'qalimen', 'tf2', 'farmasist', 'bioqclin', 'toxi'] },
     ],
     '6-1': [
         { nombre: 'Unidad de Investigación II o Internado II', codigo: 'ui2', prereq: ['ui1'] },
