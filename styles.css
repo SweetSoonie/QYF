@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#malla-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.semestre {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+}
+.semestre h2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ramo {
+    background-color: #f9d5ec; /* rosado pastel */
+    padding: 8px;
+    border-radius: 6px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.ramo.aprobado {
+    background-color: #d7bce8; /* morado pastel */
+    text-decoration: line-through;
+}
+.ramo.bloqueado {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
